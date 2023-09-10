@@ -1,0 +1,88 @@
+.hader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-size: 32px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.inputs-wrapper {
+  display: flex;
+}
+.inputs-wrapper input{
+  width: 500px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* CSS */
+.button-31 {
+  width: 60px;
+  background-color: #222;
+  border-radius: 10px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 10px;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+.todo-list-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.single-todo {
+  min-width: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+.single-todo h1 {
+  font-size: 15px;
+}
+.todo-action {
+  margin-left: 10px;
+  display: flex; 
+}
+.todo-action .icon {
+  padding: 10px;
+  font-size: 20px;
+  color: #484a4ef8;
+}
+.done-todo {
+  text
+}
